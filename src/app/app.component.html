@@ -3,7 +3,7 @@
   <span>Choose file</span>
 </label>
 <input type="file" name="upload" id="fileUpload" #clickUpload (change)="onFileChange($event)" accept=".xls,.xlsx,.json" placeholder="Select file" />
-<span>{{selectedFile.name}}</span>
+<span class="fileName">{{selectedFile.name}}</span>
 
 <div class="d-flex justify-content-end gap-4 mt-5">
   <button type="button" class="btn btn-primary" (click)="convertFile()">Excel to JSON</button>

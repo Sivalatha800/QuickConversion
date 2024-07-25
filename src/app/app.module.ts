@@ -9,13 +9,13 @@ import 'firebase/compat/firestore';
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC6kW6DJI_2j7RleV9WHf-irmy-g3IfY88",
-  authDomain: "quick-conversion.firebaseapp.com",
-  projectId: "quick-conversion",
-  storageBucket: "quick-conversion.appspot.com",
-  messagingSenderId: "1021530035753",
-  appId: "1:1021530035753:web:d4fff88e9d55596c522e38",
-  measurementId: "G-24K9X164XH"
+  apiKey: "AIzaSyDk9c0d_vXJdo587-waZ2BprClEGyLNeOs",
+  authDomain: "quick-conversion-4d1cf.firebaseapp.com",
+  projectId: "quick-conversion-4d1cf",
+  storageBucket: "quick-conversion-4d1cf.appspot.com",
+  messagingSenderId: "32915826316",
+  appId: "1:32915826316:web:463cf450a0033f7f5f3da9",
+  measurementId: "G-NR0D0LG233"
 };
 
 const app = firebase.initializeApp(firebaseConfig);

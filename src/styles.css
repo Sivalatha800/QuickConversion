@@ -93,7 +93,7 @@
     background-color: #3AB52D;
    }
 
-   span{
+   .fileName{
     color: white;
     display: flex;
     align-items: center;
